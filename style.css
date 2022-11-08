@@ -1,0 +1,119 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#tudo{
+   transition-timing-function: ease;
+   transition-duration: 2s;
+}
+#sec{
+    text-align: center;
+    transition-timing-function: ease;
+   transition-duration: 2s;
+    
+}
+#art{
+    text-align: center;
+    margin-top: 30px;
+    transition-timing-function: ease;
+   transition-duration: 2s;
+    
+}
+header{text-align: center;
+   background-color: black;
+   color: white;
+   padding: 15px;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+   margin: 0px;
+    
+}
+h1{
+   text-align: center;
+   border: solid 10px black ; 
+   background-color: white;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+}
+h2{
+   text-align: center;
+   border: solid 10px black ; 
+   background-color: white;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+}
+h3{
+   border: solid 10px black ; 
+   background-color: white;
+   margin-top: 0px;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+}
+footer{
+   text-align: center;
+   margin-top: 10px;
+   background-color: black;
+   color: white;
+   padding: 25px;
+   margin: 0px;
+   margin-top: 10px;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+}
+   
+   
+
+article{
+   text-align: center;
+   margin-top: 0px;
+}
+h4{
+   border: solid 10px black ; 
+   background-color: white;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+}
+#button3:hover{
+   background-color: green;
+}
+#globo:link{
+   color: blue;
+   margin:100px;
+}
+
+#title{
+   text-align: center;
+   border: solid 10px black ; 
+   background-color: gray;
+   margin-top: 10px;
+   padding: 25px;
+   color: white;
+   transition-timing-function: ease;
+   transition-duration: 2s;
+   transition-property: all;
+}
+#cnn:visited{
+   color: purple;
+   
+}
+nav:hover{
+   animation-name: animação;
+   animation-duration: 6s;   
+   animation-iteration-count: infinite;
+   background-color: blue;
+   padding: 10px;
+}
+@keyframes animação{
+   0% {background-color: blue; color: red;}
+   25% {background-color: green; color: yellow}
+   50% {background-color: white;color: black}
+   75%{background-color: purple;color: pink;}
+   100%{background-color: aqua;color:crimson}
+}
+#title:hover{
+   transform:translate(100px);
+   animation-name: animação;
+   animation-duration: 6s;   
+   animation-iteration-count: infinite;
+}
